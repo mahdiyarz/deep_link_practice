@@ -19,7 +19,9 @@ class AppRoute {
       GoRoute(
         name: detailsScreen,
         path: DetailsScreen.routeName,
-        builder: (context, state) => const DetailsScreen(),
+        builder: (context, state) => DetailsScreen(
+          detailsID: state.pathParameters['detailsID'] ?? '0',
+        ),
       ),
     ],
   );
