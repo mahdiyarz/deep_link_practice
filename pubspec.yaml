@@ -39,6 +39,7 @@ dependencies:
   flutter_bloc: ^8.1.6
   bloc: ^8.1.4
   app_links: ^6.3.2
+  gap: ^3.0.1
 
 dev_dependencies:
   flutter_test:

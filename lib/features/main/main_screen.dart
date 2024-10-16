@@ -3,7 +3,7 @@ import 'package:deep_link_practice/features/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
-  static const String routeName = '/';
+  static const String routeName = '/main';
   const MainScreen({super.key});
 
   @override
